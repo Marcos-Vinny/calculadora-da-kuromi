@@ -1,0 +1,6 @@
+Precisa do Node.js instalado (nodejs.org). Dentro desta pasta, no terminal:
+  
+  cd kuromi-calculadora-codigo
+  npm install
+  npm start        (abre a calculadora pra testar)
+  npm run build    (gera o instalador na pasta "dist")

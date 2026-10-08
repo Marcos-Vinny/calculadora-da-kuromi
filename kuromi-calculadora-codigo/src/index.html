@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kuromi Calculadora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculadora">
+  <button class="ctl ctl-min" id="btn-min" title="Minimizar" aria-label="Minimizar"><span></span></button>
+  <button class="ctl ctl-fechar" id="btn-fechar" title="Fechar" aria-label="Fechar"><span></span></button>
+
+  <div class="visor">
+    <div class="historico" id="historico"></div>
+    <div class="atual" id="atual">0</div>
+  </div>
+
+  <div class="botoes">
+    <button class="btn cinza" data-acao="inverter">+/-</button>
+    <button class="btn cinza" data-acao="porcento">%</button>
+    <button class="btn cinza" data-acao="limpar">C</button>
+    <button class="btn vermelho" data-acao="apagar">⌫</button>
+
+    <button class="btn" data-num="7">7</button>
+    <button class="btn" data-num="8">8</button>
+    <button class="btn" data-num="9">9</button>
+    <button class="btn vermelho" data-op="/">÷</button>
+
+    <button class="btn" data-num="4">4</button>
+    <button class="btn" data-num="5">5</button>
+    <button class="btn" data-num="6">6</button>
+    <button class="btn vermelho" data-op="*">×</button>
+
+    <button class="btn" data-num="1">1</button>
+    <button class="btn" data-num="2">2</button>
+    <button class="btn" data-num="3">3</button>
+    <button class="btn vermelho" data-op="-">−</button>
+
+    <button class="btn" data-num="0">0</button>
+    <button class="btn" data-acao="igual">=</button>
+    <button class="btn" data-acao="ponto">,</button>
+    <button class="btn vermelho" data-op="+">+</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
